@@ -10,6 +10,16 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+#headerContainer div a{
+    color: white;
+    text-decoration: none;
+}
+#headerContainer div a:hover{
+    color: rgb(113, 175, 246);
+    text-decoration: none;
+}
+
 .navLinks{
     font-size: 1.35em;
     color: white;
