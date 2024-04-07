@@ -145,6 +145,28 @@
     border-radius: 5px;
 }
 
+/*News Letter section*/
+.btn-color{
+    background-color: rgb(49, 120, 187);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 4px 2px;
+    border-radius: 5px;
+
+}
+
+.btn-color:hover{
+    background-color: rgb(130, 23, 245);
+}
+
+#videoContainer{
+    box-shadow: 0 0px 25px black;
+}
+
 
 /*Footers section*/
 .socialMedia a{
@@ -206,4 +228,42 @@
         display: block;
     }
 
+}
+
+
+@media screen and (max-width: 410px) {
+    #skipToMainBtton{
+        top: -150px;
+    }
+
+    .titles{
+        font-size: 1.5em;
+    }
+
+    .navLinks{
+        font-size: 1em;
+    }
+
+    .dropup-content{
+        position: sticky;
+        top: 0;
+        background-color: rgba(29, 57, 129, 0.283);
+        z-index: 100;
+    }
+
+    .dropbtn{
+        font-size: 1em;
+    }
+
+    .dropup-content a {
+        font-size: 1em;
+    }
+
+    .form-control{
+        width: 100% !important;
+    }
+
+    .IMGclass img{
+        width: 100%;
+    }
 }
